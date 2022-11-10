@@ -8,9 +8,10 @@ body {
 }
 
 img {
-    border-radius: 20px;
+    border-radius: 50%;
     width: 320px;
     height: 320px;
+    border: 1px solid rgb(71, 71, 201);
 }
 
 h1 {
@@ -41,8 +42,13 @@ a {
     border-radius: 5px;
 }
 
+a:hover {
+    background-color:#B0C4DE;
+    color: rgb(74, 74, 236);
+}
+
 footer {
-    color: white;
+    color:#B0C4DE;
 }
 
 .container {
